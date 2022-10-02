@@ -105,11 +105,14 @@
     width: 50%;
     height: 400px;
     background-color: #af00b7;
-    margin-left:200px;
+    margin-left: 400px;
+    margin-top: 150px;
     display: block;
+    border-radius: 20px;
+    box-shadow: 2px 2px 25px 9px rgba(0, 0, 0, 0.2);
 }
 ul{
-    padding-top: 100px;
+    padding-top: 50px;
     list-style-type: none;
 }
 li{
@@ -119,18 +122,25 @@ li{
 }
 .nam input{
     border-radius: 10px;
-    padding-left: 100px;
+    
     margin-left: 150px;
     height: 30px;
+    
 }
 #enter{
     border-radius: 10px;
     width: 100px;
     margin-left: 150px;
     height: 30px;
-    margin-left: 200px;
+    margin-left: 320px;
     margin-top: 3px;
 
+}
+#enter:hover{
+    background-color: #00bf72;
+    border: 2px solid white;
+    color: white;
+    font-size: 25px;
 }
 #user{
     position: absolute;
@@ -139,4 +149,12 @@ li{
     margin-left: 320px;
     top: 200px;
     
+}
+.nam label{
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    bottom: 240px;
+    left: 450px;
 }
